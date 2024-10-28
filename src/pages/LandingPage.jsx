@@ -5,10 +5,20 @@ import Especialidades from "../components/Especialidades";
 import Sedes from "../components/Sedes";
 import { useState } from "react";
 
+import atencion from '../images/atendiendo_a_paciente_redimencionado.jpeg'
+import reu_doc from '../images/reunion_doctores_redimensionado.jpg'
+
+import Inter from '../images/logo_interseguro.svg'
+import laPosi from '../images/LaPositivaSeguros.png'
+import Mapfre from '../images/LOGO-MAPFRE-sin.png'
+
+import staff from '../images/staff_medicos.jpg'
+import tomo from '../images/tomo.jpg'
+
 function LandingPage() {
-    const imagenes = ['src/images/atendiendo_a_paciente_redimencionado.jpeg', 'src/images/reunion_doctores_redimensionado.jpg'];
-    const ImagenesConvenios = ['src/images/logo_interseguro.svg', 'src/images/LaPositivaSeguros.png', 'src/images/LOGO-MAPFRE-sin.png'];
-    const ImagenesPQ = ['src/images/staff_medicos.jpg', 'src/images/tomo.jpg'];
+    const imagenes = [atencion, reu_doc];
+    const ImagenesConvenios = [Inter,laPosi,Mapfre];
+    const ImagenesPQ = [staff,tomo ];
     const textosPQ = [
         "Nuestros médicos son altamente calificados y están comprometidos con tu salud.",
         "Contamos con la última tecnología para brindarte el mejor diagnóstico y tratamiento."
