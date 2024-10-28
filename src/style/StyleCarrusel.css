@@ -1,0 +1,17 @@
+
+@keyframes progressCircle {
+    from {
+      background: conic-gradient(#00bcd4 0deg, transparent 0deg);
+    }
+    to {
+      background: conic-gradient(#00bcd4 360deg, transparent 0deg);
+    }
+  }
+  
+
+  .animate-progress-circle {
+    border-radius: 50%;
+    background: conic-gradient(#00bcd4 0deg, transparent 0deg);
+    animation: progressCircle 2s linear infinite;
+  }
+  

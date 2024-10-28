@@ -7,6 +7,8 @@ import { useState } from "react";
 
 import atencion from '../images/atendiendo_a_paciente_redimencionado.jpeg'
 import reu_doc from '../images/reunion_doctores_redimensionado.jpg'
+import paciente_feliz_1 from '../images/pacientes_feliz_1.avif'
+import pacientes_feliz_2 from '../images/pacientes_feliz_2.jpg'
 
 import Inter from '../images/svg/logo_interseguro.svg'
 import laPosi from '../images/LaPositivaSeguros.png'
@@ -16,7 +18,7 @@ import staff from '../images/staff_medicos.jpg'
 import tomo from '../images/tomo.jpg'
 
 function LandingPage() {
-    const imagenes = [atencion, reu_doc];
+    const imagenes = [atencion, reu_doc,paciente_feliz_1,pacientes_feliz_2];
     const ImagenesConvenios = [Inter, laPosi, Mapfre];
     const ImagenesPQ = [staff, tomo];
     const textosPQ = [
