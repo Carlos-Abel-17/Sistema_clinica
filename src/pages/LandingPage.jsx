@@ -8,7 +8,7 @@ import { useState } from "react";
 import atencion from '../images/atendiendo_a_paciente_redimencionado.jpeg'
 import reu_doc from '../images/reunion_doctores_redimensionado.jpg'
 
-import Inter from '../images/logo_interseguro.svg'
+import Inter from '../images/svg/logo_interseguro.svg'
 import laPosi from '../images/LaPositivaSeguros.png'
 import Mapfre from '../images/LOGO-MAPFRE-sin.png'
 
